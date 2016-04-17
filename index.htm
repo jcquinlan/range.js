@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Range.js</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h2>Range.js</h2>
+      <p>A circa 2016 JavaScript library to resize, reduce, or change ranges of DOM elements. Open-source on <a href="http://github.com/kylesb/range.js">GitHub</a>.</p>
+    </header>
+
+    <hr>
+
+    <section>
+      <p>Text example:</p>
+
+      <section data-range="true">
+        <input type="range">
+        <p>This is some sample text that you can reduce. User Account Control (UAC) is a feature that can help you stay in control of your computer by informing you when a programs makes a change that requires administrator permissions. This can be helpful for several reasons, as it allows the user to view program changes and detect system corruption at a faster time.
+        <br><br>
+        Feature that can help you stay in control of your computer by informing you when a programs makes a change that requires administrator permissions. This can be helpful for several reasons, as it allows the user to view program changes and detect system corruption at a faster time.
+        </p>
+      </section>
+    </section>
+
+    <hr>
+
+    <section>
+      <p>List example</p>
+
+      <section data-range="true">
+        <input type="range">
+        <ul>
+          <li>Item one</li>
+          <li>Item two</li>
+          <ul>
+            <li>Nestd two-one</li>
+            <li>Nestd two-two</li>
+          </ul>
+          <li>Item three</li>
+          <ul>
+            <li>Nestd three-one</li>
+            <li>Nestd three-two</li>
+          </ul>
+          <li>Item four</li>
+        </ul>
+      </section>
+    </section>
+
+    <hr>
+
+    <section>
+      <p>Image example:</p>
+
+      <section data-range="true">
+        <input type="range">
+        <img width="350" src="img/tree.jpg">
+      </section>
+    </section>
+
+    <script src='js/range.js'></script>
+    <script>
+      range = new Range(0.25);
+    </script>
+
+  </body>
+</html>
